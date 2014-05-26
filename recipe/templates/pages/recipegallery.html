@@ -4,15 +4,15 @@
 
 {% block main %}{{ block.super }}
 
-{% editable page.treepage.content %}
-{{ page.treepage.content|richtext_filters|safe }}
+{% editable page.recipegallery.content %}
+{{ page.recipegallery.content|richtext_filters|safe }}
 {% endeditable %}
 
 
-{% if page.treepage.add_toc %}
+{% if page.recipegallery.add_toc %}
 <hr/>
 <div class="container">
-    {% page_menu "pages/menus/tree.html" page %}
+    {% page_menu "pages/menus/gallerymenu.html" page %}
 </div>
 {% endif %}
 {% endblock %}

@@ -1,0 +1,15 @@
+{% load pages_tags mezzanine_tags staticfiles %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static "mezzanine/css/magnific-popup.css" %}">
+{% endblock extra_css %}
+<div class="gallery row">
+{% for page in page_branch %}
+<div class="col-xs-4 col-sm-3">
+    <a class="thumbnail" rel="#image-{{ page.recipe.id }}" title="{{ page.recipe.title }}" href="{{ page.recipe.get_absolute_url }}">
+        <img class="img-responsive" src="{{ MEDIA_URL }}{% thumbnail page.recipe.image 131 75 %}">
+        {{page.recipe.title}}
+    </a>
+</div>
+{% endfor %}
+</div>

@@ -246,11 +246,12 @@ INSTALLED_APPS = (
     "mezzanine.forms",
     "mezzanine.pages",
     "mezzanine.galleries",
-    "mezzanine.twitter",
+    #"mezzanine.twitter",
     "mezzanine.accounts",
     #"mezzanine.mobile",
     "book",
     "treepage",
+    "recipe",
 )
 
 # List of processors used by RequestContext to populate the context.
@@ -367,3 +368,4 @@ else:
 ############ Additional user settings  ############3
 
 SEARCH_MODEL_CHOICES = []
+PAGE_MENU_TEMPLATES = ( (1, "Top navigation bar", "pages/menus/dropdown.html"), )

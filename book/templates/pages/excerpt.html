@@ -1,0 +1,19 @@
+{% extends "pages/page.html" %}
+{% load pages_tags mezzanine_tags%}
+{% block breadcrumb_menu %}
+<p>
+Title: <a href="{{page.excerpt.book.get_absolute_url}}">{{page.excerpt.book.title}}</a>
+Authors: {%for author in page.excerpt.book.authors.all%}
+<a href="{{author.get_absolute_url}}">
+{{author.title}}</a>
+{%endfor%}
+
+{% endblock %}
+
+{% block main %}{{ block.super }}
+
+{% editable page.excerpt.content %}
+{{ page.excerpt.content|richtext_filters|safe }}
+{% endeditable %}
+
+{% endblock %}

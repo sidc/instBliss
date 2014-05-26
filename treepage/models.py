@@ -6,7 +6,7 @@ class TreePage(Page, RichText):
     """
     A tree page
     """
-    add_toc = models.BooleanField(_("Add TOC"), default=False,
+    add_toc = models.BooleanField(_("Add TOC"), default=True,
                                   help_text=_("Include a list of child links"))
 
     class Meta:

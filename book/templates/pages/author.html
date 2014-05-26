@@ -1,0 +1,21 @@
+{% extends "pages/page.html" %}
+{% load pages_tags mezzanine_tags%}
+{% block breadcrumb_menu %}
+{% page_menu "pages/menus/breadcrumb.html" %}
+<p>
+D.O.B: {{page.author.dob}}
+</br>
+Books: <ul>{%for book in page.author.books.all%}
+<li><a href="{{book.get_absolute_url}}">
+{{book.title}}</a></li>
+{%endfor%}
+</ul>
+{% endblock %}
+
+{% block main %}{{ block.super }}
+
+{% editable page.author.content %}
+{{ page.author.content|richtext_filters|safe }}
+{% endeditable %}
+
+{% endblock %}
