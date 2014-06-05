@@ -2,7 +2,7 @@
 
 {% if request.user.is_authenticated %}
     <p>
-    {% trans "Who: " %}
+    {% trans "Logged in: " %}
     {% url "profile" request.user.username as profile_url %}
     {% if profile_url %}
         <a href="{{ profile_url }}">{{ request.user|username_or:"email" }}</a>

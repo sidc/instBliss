@@ -87,6 +87,8 @@ urlpatterns += patterns('',
 
     # ("^%s/" % settings.SITE_PREFIX, include("mezzanine.urls"))
 
+    ## For live_support app
+    url(r'^support/', include('live_support.urls')),
 )
 
 # Adds ``STATIC_URL`` to the context of error pages, so that error

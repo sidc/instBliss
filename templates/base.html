@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="{{ LANGUAGE_CODE }}"{% if LANGUAGE_BIDI %} dir="rtl"{% endif %}>
-{% load pages_tags mezzanine_tags i18n future staticfiles %}
+{% load pages_tags mezzanine_tags keyword_tags i18n future staticfiles %}
 
 <head>
 <meta http-equiv="Content-type" content="text/html; charset=utf-8">
@@ -92,6 +92,21 @@
 {% spaceless %}
 {% block breadcrumb_menu %}{% page_menu "pages/menus/breadcrumb.html" %}{% endblock %}
 {% endspaceless %}
+<!-- <p>Last Updated: {{page.updated}} -->
+{% block page_keywords %}
+
+{% keywords_for page as tags %}
+{% if tags %}
+{% spaceless %}
+<ul class="list-inline tags">
+    <li>{% trans "Tagged" %}:</li>
+    {% for tag in tags %}
+    <li><a href="/search?q={{tag.slug}}">{{ tag }}</a></li>
+    {% endfor %}
+</ul>
+{% endspaceless %}
+{% endif %}
+{% endblock %}
 </ul>
 
 </div>
@@ -99,30 +114,31 @@
 <div class="container">
 <div class="row">
 
-<!-- <div class="col-md-0 left">
-    {% block left_panel %}
+<div class="col-md-3 left">
+    <!-- {% block left_panel %}
     <div class="panel panel-default tree"></div>
-    {% endblock %}
-</div> -->
+    {% endblock %} -->
+</div> 
 
-<div class="col-md-12 middle">
+<div class="col-md-6 middle">
     {% block main %}{% endblock %}
 </div>
 
-<!-- <div class="col-md-0 right">
+ <div class="col-md-3 right">
     {% nevercache %}
     {% include "includes/user_panel.html" %}
     {% endnevercache %}
-    <div class="panel panel-default">
+    <!-- <div class="panel panel-default">
     <div class="panel-body">
     {% block right_panel %}
+
     {% ifinstalled mezzanine.twitter %}
     {% include "twitter/tweets.html" %}
     {% endifinstalled %}
     {% endblock %}
     </div>
-    </div>
-</div> -->
+    </div> -->
+</div> 
 
 </div>
 </div>
@@ -134,11 +150,11 @@
     
 
 <div class="row">
- <div class="col-md-12 middle">
+<!--  <div class="col-md-12 middle">
     {% nevercache %}
     {% include "includes/user_panel.html" %}
     {% endnevercache %}
-</div>
+</div> -->
 <p class="site-info text-center">
     {% ifinstalled mezzanine.mobile %}
     <span class="separator">|</span>
