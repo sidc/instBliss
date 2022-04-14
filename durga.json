@@ -262,7 +262,7 @@
       "on": "https://db-website-photos.s3.eu-west-2.amazonaws.com/sakta/ochs_s_000_000_001_durgasaptasati/jpgSmall/",
       "resource": {
         "@type": "dctypes:Image",
-        "@id": "https://db-website-photos.s3.eu-west-2.amazonaws.com/sakta/ochs_s_000_000_001_durgasaptasati/jpgSmall/_DSC1548.jpg"
+        "@id": "https://media.nga.gov/iiif/public/objects/5/2/1/7/8/52178-primary-0-nativeres.ptif/full/full/0/default.jpg"
       }
     }
   ]
@@ -279,7 +279,7 @@
       "on": "https://db-website-photos.s3.eu-west-2.amazonaws.com/sakta/ochs_s_000_000_001_durgasaptasati/jpgSmall/",
       "resource": {
         "@type": "dctypes:Image",
-        "@id": "https://db-website-photos.s3.eu-west-2.amazonaws.com/sakta/ochs_s_000_000_001_durgasaptasati/jpgSmall/_DSC1549.jpg"
+        "@id": "https://media.nga.gov/iiif/public/objects/4/6/6/2/6/46626-primary-0-nativeres.ptif/full/full/0/default.jpg"
       }
     }
   ]
