@@ -1,0 +1,544 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:Manifest",
+  "@id": "/manifests/ochs_s_000_000_001_durgasaptasati.json",
+  "label": "Durgāsaptaśatī",
+  "description": "700 Stanzas of Durgā",
+     "viewingDirection":"left-to-right",
+   "viewingHint":"individuals",
+  "metadata": [
+    {
+  "label": "Internal catalogue id",
+  "value": "ochs_s_000_000_001_durgasaptasati"
+},
+{
+  "label": "(if multi-text) Note on texts in manuscript",
+  "value": "This manuscript also contains the kavaca, kīlaka, strotra and nyāsa etc."
+},
+{
+  "label": "Date of copying",
+  "value": "19th-20th cent."
+},
+{
+  "label": "Dating (UTC)",
+  "value": "1800-01-01"
+},
+{
+  "label": "Language",
+  "value": "Sanskrit"
+},
+{
+  "label": "Script",
+  "value": "Devanāgarī"
+},
+{
+  "label": "Material",
+  "value": "Coloured paper"
+},
+{
+  "label": "Condition",
+  "value": "good"
+},
+{
+  "label": "Binding hole",
+  "value": "No"
+},
+{
+  "label": "Folios",
+  "value": "63"
+},
+{
+  "label": "Subject(s)",
+  "value": "Śākta tantra"
+},
+{
+  "label": "Place where manuscript was written",
+  "value": "Kathmandu"
+}
+  ],
+  "license": "http://rightsstatements.org/vocab/CNE/1.0/",
+  "attribution": "Digitized from the OCHS Kathmandu Office",
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "canvases": [
+            {
+"@type": "sc:Canvas",
+"label": "_DSC1510.jpg",
+"@id": "/ochs_s_000_000_001_durgasaptasati/canvas/1",
+"width": 2000,
+"height": 1000,
+  "images": [
+    {
+      "@type": "oa:Annotation",
+      "on": "https://db-website-photos.s3.eu-west-2.amazonaws.com/sakta/ochs_s_000_000_001_durgasaptasati/jpgSmall/",
+      "resource": {
+        "@type": "dctypes:Image",
+        "@id": "https://db-website-photos.s3.eu-west-2.amazonaws.com/sakta/ochs_s_000_000_001_durgasaptasati/jpgSmall/_DSC1510.jpg"
+      }
+    }
+  ]
+},
+{
+"@type": "sc:Canvas",
+"label": "_DSC1511.jpg",
+"@id": "/ochs_s_000_000_001_durgasaptasati/canvas/2",
+"width": 2000,
+"height": 1000,
+  "images": [
+    {
+      "@type": "oa:Annotation",
+      "on": "https://db-website-photos.s3.eu-west-2.amazonaws.com/sakta/ochs_s_000_000_001_durgasaptasati/jpgSmall/",
+      "resource": {
+        "@type": "dctypes:Image",
+        "@id": "https://db-website-photos.s3.eu-west-2.amazonaws.com/sakta/ochs_s_000_000_001_durgasaptasati/jpgSmall/_DSC1511.jpg"
+      }
+    }
+  ]
+},
+{
+"@type": "sc:Canvas",
+"label": "_DSC1512.jpg",
+"@id": "/ochs_s_000_000_001_durgasaptasati/canvas/3",
+"width": 2000,
+"height": 1000,
+  "images": [
+    {
+      "@type": "oa:Annotation",
+      "on": "https://db-website-photos.s3.eu-west-2.amazonaws.com/sakta/ochs_s_000_000_001_durgasaptasati/jpgSmall/",
+      "resource": {
+        "@type": "dctypes:Image",
+        "@id": "https://db-website-photos.s3.eu-west-2.amazonaws.com/sakta/ochs_s_000_000_001_durgasaptasati/jpgSmall/_DSC1512.jpg"
+      }
+    }
+  ]
+},
+{
+"@type": "sc:Canvas",
+"label": "_DSC1513.jpg",
+"@id": "/ochs_s_000_000_001_durgasaptasati/canvas/4",
+"width": 2000,
+"height": 1000,
+  "images": [
+    {
+      "@type": "oa:Annotation",
+      "on": "https://db-website-photos.s3.eu-west-2.amazonaws.com/sakta/ochs_s_000_000_001_durgasaptasati/jpgSmall/",
+      "resource": {
+        "@type": "dctypes:Image",
+        "@id": "https://db-website-photos.s3.eu-west-2.amazonaws.com/sakta/ochs_s_000_000_001_durgasaptasati/jpgSmall/_DSC1513.jpg"
+      }
+    }
+  ]
+},
+{
+"@type": "sc:Canvas",
+"label": "_DSC1514.jpg",
+"@id": "/ochs_s_000_000_001_durgasaptasati/canvas/5",
+"width": 2000,
+"height": 1000,
+  "images": [
+    {
+      "@type": "oa:Annotation",
+      "on": "https://db-website-photos.s3.eu-west-2.amazonaws.com/sakta/ochs_s_000_000_001_durgasaptasati/jpgSmall/",
+      "resource": {
+        "@type": "dctypes:Image",
+        "@id": "https://db-website-photos.s3.eu-west-2.amazonaws.com/sakta/ochs_s_000_000_001_durgasaptasati/jpgSmall/_DSC1514.jpg"
+      }
+    }
+  ]
+},
+{
+"@type": "sc:Canvas",
+"label": "_DSC1542.jpg",
+"@id": "/ochs_s_000_000_001_durgasaptasati/canvas/6",
+"width": 2000,
+"height": 1000,
+  "images": [
+    {
+      "@type": "oa:Annotation",
+      "on": "https://db-website-photos.s3.eu-west-2.amazonaws.com/sakta/ochs_s_000_000_001_durgasaptasati/jpgSmall/",
+      "resource": {
+        "@type": "dctypes:Image",
+        "@id": "https://db-website-photos.s3.eu-west-2.amazonaws.com/sakta/ochs_s_000_000_001_durgasaptasati/jpgSmall/_DSC1542.jpg"
+      }
+    }
+  ]
+},
+{
+"@type": "sc:Canvas",
+"label": "_DSC1543.jpg",
+"@id": "/ochs_s_000_000_001_durgasaptasati/canvas/7",
+"width": 2000,
+"height": 1000,
+  "images": [
+    {
+      "@type": "oa:Annotation",
+      "on": "https://db-website-photos.s3.eu-west-2.amazonaws.com/sakta/ochs_s_000_000_001_durgasaptasati/jpgSmall/",
+      "resource": {
+        "@type": "dctypes:Image",
+        "@id": "https://db-website-photos.s3.eu-west-2.amazonaws.com/sakta/ochs_s_000_000_001_durgasaptasati/jpgSmall/_DSC1543.jpg"
+      }
+    }
+  ]
+},
+{
+"@type": "sc:Canvas",
+"label": "_DSC1544.jpg",
+"@id": "/ochs_s_000_000_001_durgasaptasati/canvas/8",
+"width": 2000,
+"height": 1000,
+  "images": [
+    {
+      "@type": "oa:Annotation",
+      "on": "https://db-website-photos.s3.eu-west-2.amazonaws.com/sakta/ochs_s_000_000_001_durgasaptasati/jpgSmall/",
+      "resource": {
+        "@type": "dctypes:Image",
+        "@id": "https://db-website-photos.s3.eu-west-2.amazonaws.com/sakta/ochs_s_000_000_001_durgasaptasati/jpgSmall/_DSC1544.jpg"
+      }
+    }
+  ]
+},
+{
+"@type": "sc:Canvas",
+"label": "_DSC1545.jpg",
+"@id": "/ochs_s_000_000_001_durgasaptasati/canvas/9",
+"width": 2000,
+"height": 1000,
+  "images": [
+    {
+      "@type": "oa:Annotation",
+      "on": "https://db-website-photos.s3.eu-west-2.amazonaws.com/sakta/ochs_s_000_000_001_durgasaptasati/jpgSmall/",
+      "resource": {
+        "@type": "dctypes:Image",
+        "@id": "https://db-website-photos.s3.eu-west-2.amazonaws.com/sakta/ochs_s_000_000_001_durgasaptasati/jpgSmall/_DSC1545.jpg"
+      }
+    }
+  ]
+},
+{
+"@type": "sc:Canvas",
+"label": "_DSC1546.jpg",
+"@id": "/ochs_s_000_000_001_durgasaptasati/canvas/10",
+"width": 2000,
+"height": 1000,
+  "images": [
+    {
+      "@type": "oa:Annotation",
+      "on": "https://db-website-photos.s3.eu-west-2.amazonaws.com/sakta/ochs_s_000_000_001_durgasaptasati/jpgSmall/",
+      "resource": {
+        "@type": "dctypes:Image",
+        "@id": "https://db-website-photos.s3.eu-west-2.amazonaws.com/sakta/ochs_s_000_000_001_durgasaptasati/jpgSmall/_DSC1546.jpg"
+      }
+    }
+  ]
+},
+{
+"@type": "sc:Canvas",
+"label": "_DSC1547.jpg",
+"@id": "/ochs_s_000_000_001_durgasaptasati/canvas/11",
+"width": 2000,
+"height": 1000,
+  "images": [
+    {
+      "@type": "oa:Annotation",
+      "on": "https://db-website-photos.s3.eu-west-2.amazonaws.com/sakta/ochs_s_000_000_001_durgasaptasati/jpgSmall/",
+      "resource": {
+        "@type": "dctypes:Image",
+        "@id": "https://db-website-photos.s3.eu-west-2.amazonaws.com/sakta/ochs_s_000_000_001_durgasaptasati/jpgSmall/_DSC1547.jpg"
+      }
+    }
+  ]
+},
+{
+"@type": "sc:Canvas",
+"label": "_DSC1548.jpg",
+"@id": "/ochs_s_000_000_001_durgasaptasati/canvas/12",
+"width": 2000,
+"height": 1000,
+  "images": [
+    {
+      "@type": "oa:Annotation",
+      "on": "https://db-website-photos.s3.eu-west-2.amazonaws.com/sakta/ochs_s_000_000_001_durgasaptasati/jpgSmall/",
+      "resource": {
+        "@type": "dctypes:Image",
+        "@id": "https://db-website-photos.s3.eu-west-2.amazonaws.com/sakta/ochs_s_000_000_001_durgasaptasati/jpgSmall/_DSC1548.jpg"
+      }
+    }
+  ]
+},
+{
+"@type": "sc:Canvas",
+"label": "_DSC1549.jpg",
+"@id": "/ochs_s_000_000_001_durgasaptasati/canvas/13",
+"width": 2000,
+"height": 1000,
+  "images": [
+    {
+      "@type": "oa:Annotation",
+      "on": "https://db-website-photos.s3.eu-west-2.amazonaws.com/sakta/ochs_s_000_000_001_durgasaptasati/jpgSmall/",
+      "resource": {
+        "@type": "dctypes:Image",
+        "@id": "https://db-website-photos.s3.eu-west-2.amazonaws.com/sakta/ochs_s_000_000_001_durgasaptasati/jpgSmall/_DSC1549.jpg"
+      }
+    }
+  ]
+},
+{
+"@type": "sc:Canvas",
+"label": "_DSC1672.jpg",
+"@id": "/ochs_s_000_000_001_durgasaptasati/canvas/14",
+"width": 2000,
+"height": 1000,
+  "images": [
+    {
+      "@type": "oa:Annotation",
+      "on": "https://db-website-photos.s3.eu-west-2.amazonaws.com/sakta/ochs_s_000_000_001_durgasaptasati/jpgSmall/",
+      "resource": {
+        "@type": "dctypes:Image",
+        "@id": "https://db-website-photos.s3.eu-west-2.amazonaws.com/sakta/ochs_s_000_000_001_durgasaptasati/jpgSmall/_DSC1672.jpg"
+      }
+    }
+  ]
+},
+{
+"@type": "sc:Canvas",
+"label": "_DSC1673.jpg",
+"@id": "/ochs_s_000_000_001_durgasaptasati/canvas/15",
+"width": 2000,
+"height": 1000,
+  "images": [
+    {
+      "@type": "oa:Annotation",
+      "on": "https://db-website-photos.s3.eu-west-2.amazonaws.com/sakta/ochs_s_000_000_001_durgasaptasati/jpgSmall/",
+      "resource": {
+        "@type": "dctypes:Image",
+        "@id": "https://db-website-photos.s3.eu-west-2.amazonaws.com/sakta/ochs_s_000_000_001_durgasaptasati/jpgSmall/_DSC1673.jpg"
+      }
+    }
+  ]
+},
+{
+"@type": "sc:Canvas",
+"label": "_DSC1674.jpg",
+"@id": "/ochs_s_000_000_001_durgasaptasati/canvas/16",
+"width": 2000,
+"height": 1000,
+  "images": [
+    {
+      "@type": "oa:Annotation",
+      "on": "https://db-website-photos.s3.eu-west-2.amazonaws.com/sakta/ochs_s_000_000_001_durgasaptasati/jpgSmall/",
+      "resource": {
+        "@type": "dctypes:Image",
+        "@id": "https://db-website-photos.s3.eu-west-2.amazonaws.com/sakta/ochs_s_000_000_001_durgasaptasati/jpgSmall/_DSC1674.jpg"
+      }
+    }
+  ]
+},
+{
+"@type": "sc:Canvas",
+"label": "_DSC1675.jpg",
+"@id": "/ochs_s_000_000_001_durgasaptasati/canvas/17",
+"width": 2000,
+"height": 1000,
+  "images": [
+    {
+      "@type": "oa:Annotation",
+      "on": "https://db-website-photos.s3.eu-west-2.amazonaws.com/sakta/ochs_s_000_000_001_durgasaptasati/jpgSmall/",
+      "resource": {
+        "@type": "dctypes:Image",
+        "@id": "https://db-website-photos.s3.eu-west-2.amazonaws.com/sakta/ochs_s_000_000_001_durgasaptasati/jpgSmall/_DSC1675.jpg"
+      }
+    }
+  ]
+},
+{
+"@type": "sc:Canvas",
+"label": "_DSC1680.jpg",
+"@id": "/ochs_s_000_000_001_durgasaptasati/canvas/18",
+"width": 2000,
+"height": 1000,
+  "images": [
+    {
+      "@type": "oa:Annotation",
+      "on": "https://db-website-photos.s3.eu-west-2.amazonaws.com/sakta/ochs_s_000_000_001_durgasaptasati/jpgSmall/",
+      "resource": {
+        "@type": "dctypes:Image",
+        "@id": "https://db-website-photos.s3.eu-west-2.amazonaws.com/sakta/ochs_s_000_000_001_durgasaptasati/jpgSmall/_DSC1680.jpg"
+      }
+    }
+  ]
+},
+{
+"@type": "sc:Canvas",
+"label": "_DSC1681.jpg",
+"@id": "/ochs_s_000_000_001_durgasaptasati/canvas/19",
+"width": 2000,
+"height": 1000,
+  "images": [
+    {
+      "@type": "oa:Annotation",
+      "on": "https://db-website-photos.s3.eu-west-2.amazonaws.com/sakta/ochs_s_000_000_001_durgasaptasati/jpgSmall/",
+      "resource": {
+        "@type": "dctypes:Image",
+        "@id": "https://db-website-photos.s3.eu-west-2.amazonaws.com/sakta/ochs_s_000_000_001_durgasaptasati/jpgSmall/_DSC1681.jpg"
+      }
+    }
+  ]
+},
+{
+"@type": "sc:Canvas",
+"label": "_DSC1682.jpg",
+"@id": "/ochs_s_000_000_001_durgasaptasati/canvas/20",
+"width": 2000,
+"height": 1000,
+  "images": [
+    {
+      "@type": "oa:Annotation",
+      "on": "https://db-website-photos.s3.eu-west-2.amazonaws.com/sakta/ochs_s_000_000_001_durgasaptasati/jpgSmall/",
+      "resource": {
+        "@type": "dctypes:Image",
+        "@id": "https://db-website-photos.s3.eu-west-2.amazonaws.com/sakta/ochs_s_000_000_001_durgasaptasati/jpgSmall/_DSC1682.jpg"
+      }
+    }
+  ]
+},
+{
+"@type": "sc:Canvas",
+"label": "_DSC1683.jpg",
+"@id": "/ochs_s_000_000_001_durgasaptasati/canvas/21",
+"width": 2000,
+"height": 1000,
+  "images": [
+    {
+      "@type": "oa:Annotation",
+      "on": "https://db-website-photos.s3.eu-west-2.amazonaws.com/sakta/ochs_s_000_000_001_durgasaptasati/jpgSmall/",
+      "resource": {
+        "@type": "dctypes:Image",
+        "@id": "https://db-website-photos.s3.eu-west-2.amazonaws.com/sakta/ochs_s_000_000_001_durgasaptasati/jpgSmall/_DSC1683.jpg"
+      }
+    }
+  ]
+},
+{
+"@type": "sc:Canvas",
+"label": "_DSC1709.jpg",
+"@id": "/ochs_s_000_000_001_durgasaptasati/canvas/22",
+"width": 2000,
+"height": 1000,
+  "images": [
+    {
+      "@type": "oa:Annotation",
+      "on": "https://db-website-photos.s3.eu-west-2.amazonaws.com/sakta/ochs_s_000_000_001_durgasaptasati/jpgSmall/",
+      "resource": {
+        "@type": "dctypes:Image",
+        "@id": "https://db-website-photos.s3.eu-west-2.amazonaws.com/sakta/ochs_s_000_000_001_durgasaptasati/jpgSmall/_DSC1709.jpg"
+      }
+    }
+  ]
+},
+{
+"@type": "sc:Canvas",
+"label": "_DSC1710.jpg",
+"@id": "/ochs_s_000_000_001_durgasaptasati/canvas/23",
+"width": 2000,
+"height": 1000,
+  "images": [
+    {
+      "@type": "oa:Annotation",
+      "on": "https://db-website-photos.s3.eu-west-2.amazonaws.com/sakta/ochs_s_000_000_001_durgasaptasati/jpgSmall/",
+      "resource": {
+        "@type": "dctypes:Image",
+        "@id": "https://db-website-photos.s3.eu-west-2.amazonaws.com/sakta/ochs_s_000_000_001_durgasaptasati/jpgSmall/_DSC1710.jpg"
+      }
+    }
+  ]
+},
+{
+"@type": "sc:Canvas",
+"label": "_DSC1711.jpg",
+"@id": "/ochs_s_000_000_001_durgasaptasati/canvas/24",
+"width": 2000,
+"height": 1000,
+  "images": [
+    {
+      "@type": "oa:Annotation",
+      "on": "https://db-website-photos.s3.eu-west-2.amazonaws.com/sakta/ochs_s_000_000_001_durgasaptasati/jpgSmall/",
+      "resource": {
+        "@type": "dctypes:Image",
+        "@id": "https://db-website-photos.s3.eu-west-2.amazonaws.com/sakta/ochs_s_000_000_001_durgasaptasati/jpgSmall/_DSC1711.jpg"
+      }
+    }
+  ]
+},
+{
+"@type": "sc:Canvas",
+"label": "_DSC1712.jpg",
+"@id": "/ochs_s_000_000_001_durgasaptasati/canvas/25",
+"width": 2000,
+"height": 1000,
+  "images": [
+    {
+      "@type": "oa:Annotation",
+      "on": "https://db-website-photos.s3.eu-west-2.amazonaws.com/sakta/ochs_s_000_000_001_durgasaptasati/jpgSmall/",
+      "resource": {
+        "@type": "dctypes:Image",
+        "@id": "https://db-website-photos.s3.eu-west-2.amazonaws.com/sakta/ochs_s_000_000_001_durgasaptasati/jpgSmall/_DSC1712.jpg"
+      }
+    }
+  ]
+},
+{
+"@type": "sc:Canvas",
+"label": "_DSC1713.jpg",
+"@id": "/ochs_s_000_000_001_durgasaptasati/canvas/26",
+"width": 2000,
+"height": 1000,
+  "images": [
+    {
+      "@type": "oa:Annotation",
+      "on": "https://db-website-photos.s3.eu-west-2.amazonaws.com/sakta/ochs_s_000_000_001_durgasaptasati/jpgSmall/",
+      "resource": {
+        "@type": "dctypes:Image",
+        "@id": "https://db-website-photos.s3.eu-west-2.amazonaws.com/sakta/ochs_s_000_000_001_durgasaptasati/jpgSmall/_DSC1713.jpg"
+      }
+    }
+  ]
+},
+{
+"@type": "sc:Canvas",
+"label": "_DSC1714.jpg",
+"@id": "/ochs_s_000_000_001_durgasaptasati/canvas/27",
+"width": 2000,
+"height": 1000,
+  "images": [
+    {
+      "@type": "oa:Annotation",
+      "on": "https://db-website-photos.s3.eu-west-2.amazonaws.com/sakta/ochs_s_000_000_001_durgasaptasati/jpgSmall/",
+      "resource": {
+        "@type": "dctypes:Image",
+        "@id": "https://db-website-photos.s3.eu-west-2.amazonaws.com/sakta/ochs_s_000_000_001_durgasaptasati/jpgSmall/_DSC1714.jpg"
+      }
+    }
+  ]
+},
+{
+"@type": "sc:Canvas",
+"label": "_DSC1715.jpg",
+"@id": "/ochs_s_000_000_001_durgasaptasati/canvas/28",
+"width": 2000,
+"height": 1000,
+  "images": [
+    {
+      "@type": "oa:Annotation",
+      "on": "https://db-website-photos.s3.eu-west-2.amazonaws.com/sakta/ochs_s_000_000_001_durgasaptasati/jpgSmall/",
+      "resource": {
+        "@type": "dctypes:Image",
+        "@id": "https://db-website-photos.s3.eu-west-2.amazonaws.com/sakta/ochs_s_000_000_001_durgasaptasati/jpgSmall/_DSC1715.jpg"
+      }
+    }
+  ]
+}
+          ]
+    }
+  ]
+}
