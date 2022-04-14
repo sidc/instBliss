@@ -4,8 +4,9 @@
   "@id": "/manifests/ochs_s_000_000_001_durgasaptasati.json",
   "label": "Durgāsaptaśatī",
   "description": "700 Stanzas of Durgā",
-     "viewingDirection":"left-to-right",
-   "viewingHint":"individuals",
+ "behavior": [
+    "paged"
+  ],
   "metadata": [
     {
   "label": "Internal catalogue id",
