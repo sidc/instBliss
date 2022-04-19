@@ -99,7 +99,7 @@
         {
 "@type": "sc:Canvas",
 "label": "DSC05450.jpg",
-"@id": "/ochs_s_000_000_014_pandavagita/canvas/4",
+"@id": "/ochs_s_000_000_014_pandavagita/canvas/5",
 "width": 2000,
 "height": 1000,
   "images": [
@@ -116,7 +116,7 @@
         {
 "@type": "sc:Canvas",
 "label": "DSC05450.jpg",
-"@id": "/ochs_s_000_000_014_pandavagita/canvas/4",
+"@id": "/ochs_s_000_000_014_pandavagita/canvas/6",
 "width": 2000,
 "height": 1000,
   "images": [
@@ -133,7 +133,7 @@
         {
 "@type": "sc:Canvas",
 "label": "DSC05450.jpg",
-"@id": "/ochs_s_000_000_014_pandavagita/canvas/4",
+"@id": "/ochs_s_000_000_014_pandavagita/canvas/7",
 "width": 2000,
 "height": 1000,
   "images": [
@@ -150,7 +150,7 @@
         {
 "@type": "sc:Canvas",
 "label": "DSC05450.jpg",
-"@id": "/ochs_s_000_000_014_pandavagita/canvas/4",
+"@id": "/ochs_s_000_000_014_pandavagita/canvas/8",
 "width": 2000,
 "height": 1000,
   "images": [
@@ -167,7 +167,7 @@
         {
 "@type": "sc:Canvas",
 "label": "DSC05450.jpg",
-"@id": "/ochs_s_000_000_014_pandavagita/canvas/4",
+"@id": "/ochs_s_000_000_014_pandavagita/canvas/9",
 "width": 2000,
 "height": 1000,
   "images": [
@@ -184,7 +184,7 @@
 {
 "@type": "sc:Canvas",
 "label": "DSC05449.jpg",
-"@id": "/ochs_s_000_000_014_pandavagita/canvas/3",
+"@id": "/ochs_s_000_000_014_pandavagita/canvas/10",
 "width": 2000,
 "height": 1000,
   "images": [
@@ -193,7 +193,7 @@
       "on": "https://db-website-photos.s3.eu-west-2.amazonaws.com/sakta/ochs_s_000_000_014_pandavagita/jpgSmall/",
       "resource": {
         "@type": "dctypes:Image",
-        "@id": "https://db-website-photos.s3.eu-west-2.amazonaws.com/sakta/ochs_s_000_000_014_pandavagita/jpgSmall/DSC05449.jpg"
+        "@id": "https://db-website-photos.s3.eu-west-2.amazonaws.com/sakta/ochs_s_000_000_001_durgasaptasati/jpgSmall/_DSC1512.jpg"
       }
     }
   ]
@@ -202,7 +202,7 @@
 {
 "@type": "sc:Canvas",
 "label": "DSC05450.jpg",
-"@id": "/ochs_s_000_000_014_pandavagita/canvas/4",
+"@id": "/ochs_s_000_000_014_pandavagita/canvas/11",
 "width": 2000,
 "height": 1000,
   "images": [
@@ -211,7 +211,41 @@
       "on": "https://db-website-photos.s3.eu-west-2.amazonaws.com/sakta/ochs_s_000_000_014_pandavagita/jpgSmall/",
       "resource": {
         "@type": "dctypes:Image",
-        "@id": "https://db-website-photos.s3.eu-west-2.amazonaws.com/sakta/ochs_s_000_000_014_pandavagita/jpgSmall/DSC05450.jpg"
+        "@id": "https://db-website-photos.s3.eu-west-2.amazonaws.com/sakta/ochs_s_000_000_001_durgasaptasati/jpgSmall/_DSC1511.jpg"
+      }
+    }
+  ]
+},
+{
+"@type": "sc:Canvas",
+"label": "DSC05449.jpg",
+"@id": "/ochs_s_000_000_014_pandavagita/canvas/12",
+"width": 2000,
+"height": 1000,
+  "images": [
+    {
+      "@type": "oa:Annotation",
+      "on": "https://db-website-photos.s3.eu-west-2.amazonaws.com/sakta/ochs_s_000_000_014_pandavagita/jpgSmall/",
+      "resource": {
+        "@type": "dctypes:Image",
+        "@id": "https://db-website-photos.s3.eu-west-2.amazonaws.com/sakta/ochs_s_000_000_001_durgasaptasati/jpgSmall/_DSC1512.jpg"
+      }
+    }
+  ]
+},
+{
+"@type": "sc:Canvas",
+"label": "DSC05449.jpg",
+"@id": "/ochs_s_000_000_014_pandavagita/canvas/13",
+"width": 2000,
+"height": 1000,
+  "images": [
+    {
+      "@type": "oa:Annotation",
+      "on": "https://db-website-photos.s3.eu-west-2.amazonaws.com/sakta/ochs_s_000_000_014_pandavagita/jpgSmall/",
+      "resource": {
+        "@type": "dctypes:Image",
+        "@id": "https://db-website-photos.s3.eu-west-2.amazonaws.com/sakta/ochs_s_000_000_001_durgasaptasati/jpgSmall/_DSC1513.jpg"
       }
     }
   ]
